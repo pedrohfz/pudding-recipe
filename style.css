@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.img_logo_header {
+    width: 60px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: orange;
+    color: white;
+
+    margin-bottom: 30px;
+    height: 70px;
+    justify-content: center;
+    padding: 0 10%¨;
+    gap: 30px;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+
+.img_pudim {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.card {
+    background-color: white;
+    position: relative;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 70%;
+    padding: 10px;
+}
+
+.card_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: orange;
+    font-size: 30px;
+}
+
+.card_subtitle {
+    background-color: rgb(240, 240, 240);
+    margin: 10px 10px;
+    padding: 15px 0;
+
+    color: rgb(89, 89, 89);
+    text-align: center;
+    font-size: 15px;
+}
+
+.list {
+    list-style: disc inside;
+    margin: 15px 20px;
+    line-height: 20px;
+
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.number_list {
+    list-style: decimal;
+    margin: 15px 35px;
+    line-height: 20px;
+
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
